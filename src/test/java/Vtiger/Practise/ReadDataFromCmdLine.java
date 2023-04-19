@@ -5,9 +5,15 @@ import org.testng.annotations.Test;
 public class ReadDataFromCmdLine {
   @Test
   public void sample()
-  {
-	 String BROWSER=System.getProperty("browser");
+  { 
+	String BROWSER=System.getProperty("browser");
 	 System.out.println(BROWSER);
+	 
+	 String BROWSER1=System.getProperty("browser");
+	 System.out.println(BROWSER1);
+	 
+	 
+	 
 	 
 	  }
 }
