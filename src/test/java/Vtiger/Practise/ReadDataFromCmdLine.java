@@ -6,10 +6,8 @@ public class ReadDataFromCmdLine {
   @Test
   public void sample()
   {
-	 String USERNAME=System.getProperty("username");
-	 System.out.println(USERNAME);
+	 String BROWSER=System.getProperty("browser");
+	 System.out.println(BROWSER);
 	 
-	 String PASSWORD=System.getProperty("password");
-	 System.out.println(PASSWORD);
-  }
+	  }
 }
